@@ -45,7 +45,7 @@ class GoogleChromeUIAutomatorTest {
 
     @Test
     @Throws(UiObjectNotFoundException::class)
-    fun testOpenPucMinasAndNavigate() {
+    fun testOpenOlympicGamesAndNavigate() {
         val chromeApp: UiObject = mDevice.findObject(UiSelector().descriptionContains("Chrome"))
         val website = "https://olympics.com/en/paris-2024"
         val expectedMatchDateTest = "26 de julho"
